@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+width: 80%;
+margin: auto;
+}
+
+
+
+/*  start main_info section */
+.main_info{
+    display: flex;
+    justify-content: space-between;
+}
+.main_info .imgperson{
+    width: 200px;
+    height: 200px;
+    padding: 20px 30px;
+}
+.main_info .imgperson img{
+    border-radius: 50%;
+}
+.main_info .person_info {
+    width: 700px;
+    padding: 40px 30px;
+
+}
+.main_info .person_info h4{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px;
+}
+.main_info .person_info p{
+    font-size: 18px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main_info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main_info .imgperson{
+         display: inline-block;
+         margin: auto;
+    }
+    .main_info .person_info {
+        width: 400px;
+        padding: 40px 10px;
+    
+    }
+  }
+
+
+
+/*  end main_info section */
+
+/*  start edu_exp section */
+.edu_exp{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.edu_exp .edu{
+    padding: 0 60px;
+    text-align: center;
+    width: 350px;
+}
+.edu_exp .edu h3{
+
+    padding: 10px;
+    font-size: 30px;
+}
+.edu_exp .edu .edu_un {
+  border: 1px solid rgb(235, 209, 209);
+  border-radius: 2px;
+  padding: 10px 10px;
+}
+.edu_exp .edu .edu_un span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.edu_exp .edu .edu_un p {
+    font-size: 18px;
+}
+
+.edu_exp .exp{
+    padding: 0 60px;
+    text-align: center;
+    width: 350px;
+}
+.edu_exp .exp h3{
+
+    padding: 10px;
+    font-size: 30px;
+}
+.edu_exp .exp .exp_list {
+  border: 1px solid rgb(235, 209, 209);
+  border-radius: 2px;
+  padding: 10px 10px;
+}
+.edu_exp .exp .exp_list span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.edu_exp .exp .exp_list p {
+    font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+    .edu_exp{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    .edu_exp .edu {
+        padding: 0 0 0 0;
+        margin: auto;
+    }
+    .edu_exp .exp {
+        padding: 0 0 0 0;
+        margin: auto;
+    }
+
+  }
+
+/*  end edu_exp section */
+/*  start  aboutmyself section */
+
+.aboutmyself{
+text-align: center;
+}
+.aboutmyself h2{
+    padding: 10px 0;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+}
+.aboutmyself .about {
+    width: 100%;
+    line-height: 1.2;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(235, 209, 209);
+    border-radius: 5px;
+    padding: 20px 20px;
+
+}
+
+.aboutmyself .for_acceptance .for_text{
+    width: 100%;
+    line-height: 1.2;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(235, 209, 209);
+    border-radius: 5px;
+    padding: 20px 20px;
+    
+}
+@media only screen and (max-width: 768px) {
+    .aboutmyself{
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+
+        }
+        .aboutmyself .about {
+
+            padding: 5px 10px ;
+        
+        }
+        .aboutmyself .for_acceptance .for_text{
+            padding: 5px 10px ;
+
+        }
+  }
+
+/*  end aboutmyself section */
+
+
+.contact_links{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.contact_links ul{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.contact_links .contact_info
+{
+    border: 1px solid rgb(235, 209, 209);
+    border-radius: 3px;
+    padding: 10px 10px;
+    width: 500px;
+}
+.contact_links .links_work
+{
+    border: 1px solid rgb(235, 209, 209);
+    border-radius: 3px;
+    padding: 10px 10px;
+    width: 500px;
+
+}
+.contact_links .contact_info,.links_work h4 {
+text-align: center;
+font-size: 20px;
+padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact_links{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .contact_links .contact_info , .links_work{
+        width: 350px;
+        margin: auto;
+        text-align: center;
+
+    }
+    .contact_links .contact_info{
+        margin-bottom: 10px;
+    }
+    .contact_links  .links_work{
+        width: 350px;
+        margin: auto;
+        text-align: center;
+
+    }
+
+  }
